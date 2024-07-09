@@ -60,3 +60,22 @@ nav {
     margin-right: 5px;
 }
 
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Estilos generales para las tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto de sombra cuando el mouse pasa sobre la tarjeta */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
