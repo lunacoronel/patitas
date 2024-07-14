@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #c2c2c2;
+    
+}
+
+.cajafooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    margin: 5px auto;
+    padding: 2px 2px;
+    color: #292828;
+    transition: color 0.5s ease;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: rgb(102, 100, 100);
+    color: white;
+}
+
+
+
+.sectionfooter{
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.sectionfooter h3{
+    padding-top: 10px;
+}
+.copy p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.sectionfooter form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    padding-left: calc(15%);
+}
+
+.sectionfooter form input{
+    margin-bottom: 10px;
+    border-color: none;
+    border-top-color: rgb(204, 202, 202);
+    border-left-color: rgb(204, 202, 202);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.button{
+    max-width: 40%;
+    margin-left: calc(30%);
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white ;
+    transition: color 0.5s;
+    border-color: rgb(92, 89, 89);
+    border-bottom-color: rgb(168, 163, 163);
+    border-right-color: rgb(168, 163, 163);
+    
+}
+
+.button:hover{
+    background-color: rgb(43, 43, 194);
+    color: white;
+}
+
+.icontelefono i{
+    transition: color .5s ease;
+}
+
+.icontelefono i:hover{
+    color: rgb(43, 43, 194);
+}
+
+@media (min-width:501px) {
+    .cajafooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+ 
+    .column a{
+        padding: 7px 0;
+    }
+    
+}
+
+@media (min-width:801px){
+    .container{
+        display: flex;
+
+        
+    }
+    .form{
+        width: 40%;
+        
+        
+    }
+    .aa{
+        
+        width: 100%
+    }
+    .cajafooter{
+        width: 60%;
+    }
+
+    
+    .form h3{
+        padding-bottom: 20px;
+    }
+
+    .sectionfooter a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .copy{
+        display: flex;
+        padding-left: 20px;
+    }
+}
